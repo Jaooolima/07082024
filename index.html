@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ruinas.jpg" alt="">
+            <p>Você caiu dentro das ruinas e precisa voltar para o mundo</p>
+            <button class="btn-proximo" data-proximo="1">Seguir reto</button>
+            <button class="btn-proximo" data-proximo="2">Virar a direita</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/waterfall.jpg" alt="">
+            <p>Você chega em waterfall onde flores reproduzem sons elas dissem "A saída é pela direita</p>
+            <button class="btn-proximo" data-proximo="3">Direita</button>
+            <button class="btn-proximo" data-proximo="4">Esquerda</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você continua preso nas ruinas</p>
+            <button class="btn-proximo" data-proximo="5">Investigar dentro das ruinas</button>
+            <button class="btn-proximo" data-proximo="6">Sair das ruinas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/nevada.jpg">
+            <p>Você encontra nevada, mesmo sem te conhecerem os monstros são caridosos e te guiam até a barreira</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a barreira</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/toriel.jpg" alt="">
+            <p>Você se perde e fica preso em um campo de flores onde encontra Toriel que decide te criar como sua criança</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você encontra um mapa com o caminho para a saída desse mundo.</p>
+            <button class="btn-proximo" data-proximo="7">Ir até a barreira</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/bonetime.jpg">
+            <p>Explorando o mundo você encontra os irmãos esqueletos e conta sua história.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/barreira.jpg">
+            <p>Você se depara com a barreria mas você se questiona se realmente quer ir embora</p>
+            <button class="btn-proximo" data-proximo="9">Ir</button>
+            <button class="btn-proximo" data-proximo="10">Ficar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao ouvir você eles se comovem te oferecendo comida e disseram que irão guiar você até a saída</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a barreira</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você continua andando e resolve seguir o caminho</p>
+            <button class="btn-proximo" data-proximo="11">Sair da barreira</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/yeah.jpg">
+            <p>Se passa muito tempo e você não se arrepende de sua desição</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/mundo.jpg" alt="">
+            <p>Você finalmente consegue sair das ruinas e sente o calor do sol</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
